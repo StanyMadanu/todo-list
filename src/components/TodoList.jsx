@@ -85,7 +85,7 @@ const TodoList = () => {
       <div className="row">
         <div className="col-xxl-5 col-xl-6 col-lg-8 col-md-9 col-12 mx-auto">
           <div className="todo-wrapper rounded p-4">
-            <div className="todo-heading text-center">
+            <div className="todo-heading text-center position-sticky top-0">
               <h2 className="my-3">To Do List</h2>
               <form className="d-flex gap-2 my-2">
                 <input
